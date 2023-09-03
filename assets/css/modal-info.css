@@ -1,0 +1,114 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+progress[value] {
+  -webkit-appearance: none;
+   appearance: none;
+}
+
+progress {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: 10px;
+}
+
+progress::-webkit-progress-bar {
+  border-radius: 10px;
+  background-color: snow;
+}
+
+progress::-webkit-progress-value {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.valor-color-red::-webkit-progress-value {
+  background-color: red;
+}
+
+.valor-color-orange::-webkit-progress-value {
+  background-color: orange;
+}
+
+.valor-color-light-green::-webkit-progress-value {
+  background-color: yellowgreen;
+}
+
+.valor-color-green::-webkit-progress-value {
+  background-color: springgreen;
+}
+
+.valor-color-blue::-webkit-progress-value {
+  background-color: royalblue;
+}
+
+.valor-color-purple::-webkit-progress-value {
+  background-color: darkslateblue;
+}
+
+.container-stats {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.itens-stats{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.type-stat{
+  flex: 1;
+  padding-right: 10px;
+}
+
+.valor-stat {
+  width: 60px;
+  text-align: center;
+}
+
+.progress-bar{
+  flex: 2;
+}
+
+.types-model-stats{
+  flex-direction: row;
+}
